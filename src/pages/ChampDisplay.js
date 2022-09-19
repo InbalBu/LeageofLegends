@@ -15,7 +15,6 @@ function ChampDisplay() {
         const response = await axios
           .get(`${riotapi}/champion.json`)
           .catch((err) => console.log(err));
-          console.log(Object.values(response.data.data));
           setchampionList(Object.values(response.data.data));
           getChampData(Object.values(response.data.data));
       };
