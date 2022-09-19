@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import ChampDisplay from './pages/ChampDisplay';
+import { BrowserRouter as Router, Route, Routes } 
+from "react-router-dom";
+import Champion from './components/Champion';
+import Header from './components/Header';
+import ChampData from './pages/ChampData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Router>
+        <Routes>
+        <Route path='/championinfo' element={<ChampData/>}/>
+        <Route path='/' element={<ChampDisplay/>}/>
+        </Routes>
+      </Router>
+     
     </div>
   );
 }
