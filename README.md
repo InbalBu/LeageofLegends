@@ -1,6 +1,7 @@
 # Leage Of Legends App 🎮
  
-Leage of Legends app that includes all champions. 
+Link to project: https://leageof-legends.vercel.app/ <br/>
+Leage of Legends app that includes all champions. <br/>
 Their names, tags, images, skills and more!
  
  # What can you do in my app? 👈🏼
@@ -9,6 +10,7 @@ Their names, tags, images, skills and more!
  passive skill, and their background story.
  
  Project built with React, using Riot API. 👩🏽‍💻
+ <br/>
  Hope you enejoy.
  
  ![1](https://user-images.githubusercontent.com/102725041/191100775-d6624c4e-fd3e-40fd-bfa6-0c74f8024ee8.png)
